@@ -12,7 +12,6 @@ Most of this is simply serialized content from `@hyperlane-xyz` NPM packages (se
 
 ```
 yarn install
-yarn
 ```
 
 ### Local Development
@@ -35,7 +34,7 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
-Vercel Github Action is used to deploy the website. The action is triggered on every push to the `main` branch.
+Vercel Github Action is used to deploy the website. The Vercel GitHub Action automatically deploys the site on every push to the `main` branch.
 
 ## Contribution Guidelines
 
